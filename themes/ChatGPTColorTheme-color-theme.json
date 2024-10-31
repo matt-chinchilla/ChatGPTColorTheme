@@ -1,0 +1,77 @@
+{
+    "name": "ChatGPT Color Theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#000000",
+        "editor.foreground": "#FFFFFF",
+        "notebook.cellEditorBackground": "#000000",
+        "notebook.focusedCellBackground": "#1F1F1F"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "comment.line.number-sign.python",
+                "comment.line.double-slash.js"
+            ],
+            "settings": {
+                "foreground": "#808080"  // Grey for comments
+            }
+        },
+        {
+            "scope": [
+                "storage.type.function.python",
+                "keyword.control.flow.python",
+                "keyword.control.import.python"
+            ],
+            "settings": {
+                "foreground": "#0098CF"  // Blue for specific Python keywords
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function.python",
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#EC3479"  // Pink for function names and JSON property names
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.function.language.python",
+                "entity.name.namespace",
+                "variable.other.property",
+                "parameter"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF"  // White for variables, parameters, and namespaces
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#E43375"  // Pink for numeric constants
+            }
+        },
+        {
+            "scope": [
+                "support.function.builtin.python"
+            ],
+            "settings": {
+                "foreground": "#F5922F"  // Yellow-orange for built-in functions
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.docstring.multi.python",
+                "string.quoted.single.python",
+                "string.quoted.double.json.comments"
+            ],
+            "settings": {
+                "foreground": "#00A37E"  // Green for strings
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "ChatGPTColorTheme",
+    "displayName": "Matthew's ChatGPT Python Color Theme",
+    "description": "A custom color palette that resembles the default ChatGPT programming output with colors specifically tailored for Python Development",
+    "version": "1.0.0",
+    "publisher": "MatthewChirichella",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MatthewChirichella/ChatGPTColorTheme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Matthew's ChatGPT Python Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ChatGPTColorTheme-color-theme.json"
+            }
+        ]
+    }
+}
