@@ -2,7 +2,7 @@
     "name": "ChatGPTColorTheme",
     "displayName": "Matthew's ChatGPT Python Color Theme",
     "description": "A custom color palette that resembles the default ChatGPT programming output with colors specifically tailored for Python Development",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "MatthewChirichella",
     "engines": {
         "vscode": "^1.50.0"
