@@ -1,11 +1,22 @@
 {
     "name": "ChatGPT Color Theme",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
         "editor.background": "#000000",
         "editor.foreground": "#FFFFFF",
         "notebook.cellEditorBackground": "#000000",
         "notebook.focusedCellBackground": "#1F1F1F"
+    },
+    "semanticTokenColors": {
+        "function": "#FFFFFF",
+        "function.builtin": "#F5922F",
+        "function.declaration": "#EC3479",
+        "parameter": "#FFFFFF",
+        "parameter.declaration": "#FFFFFF",
+        "variable": "#FFFFFF",
+        "class": "#7c09c9",
+        "namespace": "#32CD32"
     },
     "tokenColors": [
         {
@@ -14,7 +25,7 @@
                 "comment.line.double-slash.js"
             ],
             "settings": {
-                "foreground": "#808080"  // Grey for comments
+                "foreground": "#808080"  
             }
         },
         {
@@ -24,7 +35,7 @@
                 "keyword.control.import.python"
             ],
             "settings": {
-                "foreground": "#0098CF"  // Blue for specific Python keywords
+                "foreground": "#0098CF"
             }
         },
         {
@@ -33,7 +44,7 @@
                 "support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#EC3479"  // Pink for function names and JSON property names
+                "foreground": "#EC3479"
             }
         },
         {
@@ -44,7 +55,7 @@
                 "parameter"
             ],
             "settings": {
-                "foreground": "#FFFFFF"  // White for variables, parameters, and namespaces
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -52,7 +63,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#E43375"  // Pink for numeric constants
+                "foreground": "#E43375"
             }
         },
         {
@@ -60,7 +71,7 @@
                 "support.function.builtin.python"
             ],
             "settings": {
-                "foreground": "#F5922F"  // Yellow-orange for built-in functions
+                "foreground": "#F5922F"
             }
         },
         {
@@ -70,7 +81,7 @@
                 "string.quoted.double.json.comments"
             ],
             "settings": {
-                "foreground": "#00A37E"  // Green for strings
+                "foreground": "#00A37E"
             }
         }
     ]
